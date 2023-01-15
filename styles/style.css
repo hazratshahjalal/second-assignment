@@ -207,7 +207,7 @@ nav ul li a {
 .big-btn {
   text-align: center;
   margin-top: -120px;
-  margin-left: 120px;
+  margin-left: 150px;
 }
 
 .btn-secondary {
@@ -304,14 +304,49 @@ nav ul li a {
 }
 
 .sponsor-images {
-  padding: 60px 0;
+  width: 100%;
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: space-around;
+  padding: 40px 0;
 
 }
 
+.sponsor-images img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%)
+}
+
 /* contact us area style */
+#contact-area {
+  padding-bottom: 100px;
+}
+
+.form-container {
+  width: 100%;
+  margin: 100px auto 16px;
+  text-align: center;
+}
+
+.input-div {
+  padding: 10px 0;
+}
+
+.form-input {
+  font-size: 16px;
+  font-weight: 400px;
+  padding: 16px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width: 50%;
+}
+
+#message {
+  padding: 16px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width: 50%;
+}
 
 
 
