@@ -156,7 +156,7 @@ nav ul li a {
 /* more features styles */
 #more-features {
   width: 85%;
-  margin: 0 auto;
+  margin: 0 auto 50px;
 
 }
 
@@ -174,14 +174,157 @@ nav ul li a {
   padding-left: 20px;
 }
 
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.details-box-title {
+  color: #131313;
+  font-size: 20px;
+}
+
+.details {
+  font-size: 14px;
+  color: #727272;
+  padding: 12px 0;
+}
+
+.details-box {
+  padding: 20px;
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
 .feature-image img {
   width: 570px;
   height: 780px;
 }
 
-.details-box {
-  padding: 20px;
+/* big button styles */
+.big-btn {
+  text-align: center;
+  margin-top: -120px;
+  margin-left: 120px;
+}
+
+.btn-secondary {
+  color: #ffffff;
+  padding: 28px 35px;
+  background-color: #FF900E;
+  border: none;
+  border-radius: 7px;
+
+}
+
+.big-btn-title {
+  font-weight: 600;
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+
+/* some facts section */
+#some-facts {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.facts-details {
+  text-align: left;
+  padding: 30px 0;
+
+}
+
+.facts-title {
+  font-weight: 700;
+  font-size: 42px;
+  color: #131313;
+}
+
+.facts-description {
+  font-size: 16px;
+  color: #727272;
+  padding: 15px 50% 15px 0;
+}
+
+.facts-boxs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto 50px;
+
+}
+
+.fact-box {
+  border: 1px solid #FF900E;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px 25px;
+}
+
+.counter {
+  font-weight: 600;
+  font-size: 42px;
+  color: #131313;
+}
+
+.counter-name {
+  font-weight: 500;
+  font-size: 16px;
+  color: #727272;
+}
+
+/* sponsor section styles */
+#sponsors {
+  width: 85%;
+  margin: 100px auto;
+
+}
+
+.sponsor-container {
   display: flex;
   flex-direction: column;
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
+  align-items: center;
+}
+
+.sponsor-title {
+  font-weight: 700;
+  font-size: 42px;
+  color: #131313;
+  padding: 20px 0;
+}
+
+.sponsor-description {
+  font-size: 16px;
+  color: #727272;
+  padding: 10px 30%;
+  text-align: center;
+}
+
+.sponsor-images {
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+/* contact us area style */
+
+
+
+
+/* footer styles */
+#footer {
+  width: 85%;
+  margin: 60px auto 20px;
+}
+
+.footer-content {
+  background-color: #FFF4E7;
+  text-align: center;
+  padding: 30px;
+  border-radius: 5px;
 }
