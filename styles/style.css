@@ -13,6 +13,7 @@ a {
   color: #ffffff;
   padding: 20px 25px;
   background-color: #FF900E;
+  border: none;
   border-radius: 7px;
 }
 
@@ -50,7 +51,7 @@ header section {
 
 nav ul li a {
   color: #424242;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 18px;
 }
 
