@@ -260,6 +260,29 @@ nav ul li a {
   height: 780px;
 }
 
+
+/* big button styles */
+.big-btn {
+  text-align: center;
+  margin-top: -120px;
+  margin-left: 150px;
+}
+
+.btn-secondary {
+  color: #ffffff;
+  padding: 28px 35px;
+  background-color: #FF900E;
+  border: none;
+  border-radius: 7px;
+
+}
+
+.big-btn-title {
+  font-weight: 600;
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+
 /* feature styles for mobile */
 @media screen and (max-width:768px) {
   .more-features-box {
@@ -283,31 +306,10 @@ nav ul li a {
   }
 
   .big-btn {
-    margin: 0;
+    margin-left: 0;
+    margin-top: 0;
   }
 
-}
-
-/* big button styles */
-.big-btn {
-  text-align: center;
-  margin-top: -120px;
-  margin-left: 150px;
-}
-
-.btn-secondary {
-  color: #ffffff;
-  padding: 28px 35px;
-  background-color: #FF900E;
-  border: none;
-  border-radius: 7px;
-
-}
-
-.big-btn-title {
-  font-weight: 600;
-  font-size: 45px;
-  padding-bottom: 10px;
 }
 
 /* some facts section */
@@ -469,8 +471,6 @@ nav ul li a {
   border-radius: 5px;
   width: 50%;
 }
-
-
 
 
 /* footer styles */
